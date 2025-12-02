@@ -1,0 +1,80 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+logs/
+log/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Java ###
+*.class
+
+### Docker & DB Data ###
+mongo-data/
+mysql_keycloak_data/
+postgres-inventory/
+postgres-order/
+realms/
+relms/
+
+# Keycloak temp files
+*.db
+*.lock
+*.tmp
+
+# Mongo internal files
+WiredTiger*
+*.wt
+*.ns
+*.log
+
+# MySQL sockets and locks
+*.sock
+*.pid
+
+### Spring Boot ###
+*.jar
+*.war
+*.zip
+
+### Env files ###
+.env
+.env.*
